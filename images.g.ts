@@ -1,4 +1,9 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="`{VS5Ht0_rfA:o5szv:x">mySprite</variable><variable type="KIND_SpriteKind" id=".rHO:BlY]zdn!0D1=8w,">Player</variable><variable type="KIND_SpriteKind" id="bJN%MMJnavlm8{HMUPoZ">Projectile</variable><variable type="KIND_SpriteKind" id="/R|:GW$.MnjiN0rXOr!,">Food</variable><variable type="KIND_SpriteKind" id="z[16wCz!xqLq:z8=)`Z;">Enemy</variable></variables><block type="pxt-on-start" id="Z`P^,KR$BnLgeBTn:rWM" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="6DZ?~;a%5v7PU|UA4Ow*"><value name="img"><shadow type="background_image_picker" id="BVq~ZsUS50um%`I)r-7$"><field name="img">img`
+// Auto-generated code. Do not edit.
+namespace myImages {
+
+    helpers._registerFactory("image", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "image1":return img`
 8888888988898888888889888988888889888988888888889888988988888888888888889888889888888888988889888888888888888888988888888888888888888888888888888889888988888888................................................................................................................................................................
 8888888988898888888889888988888889888988888888889888988988888888888888889988889888888889888999888888888888888888988888899998888888888888888888888889888988888888................................................................................................................................................................
 8888888988898888888889888988888889888988888888889888988988888888888888888988889888888899888988888888888888888888998999998899999999998888888888888889888988888888................................................................................................................................................................
@@ -39,7 +44,8 @@
 8888888988898888888888988898888888889888898888889888989888889888988888888898888988888888888888889988888988888888888888888888888889888888888998888888888998888888................................................................................................................................................................
 8888888988898888888888988898888888888988898888889888989888898889988888888898888998888888888888888998888988888888888888888888888998888888889988888888888899888888................................................................................................................................................................
 8888888988898888888888988898888888888988898888889888989888998899888888888899888898888888888888888899888998888888888888888888889988888888899888888888888889988888................................................................................................................................................................
-`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><next><block type="variables_set" id="h;r7):ZB!I-hec*PU9_W"><field name="VAR" id="`{VS5Ht0_rfA:o5szv:x">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="6vgI?mMy|jN1-Rkte#gf"><value name="img"><shadow type="screen_image_picker" id=";)oTMV(6reW4$5(MJivB"><field name="img">img`
+`;
+            case "image2":return img`
 ................................
 ................................
 ................................
@@ -56,4 +62,17 @@
 ................................
 ................................
 ................................
-`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image2"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="seO!F:PrjtHT@Co8wxV/"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="lBrPK}E~OY.GxCtI%V9s"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="}^/)fCJCV]cb}mM$Sc~;"><field name="VAR" id="`{VS5Ht0_rfA:o5szv:x">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="+_`U$Bv4/s9|qd.v,L|,"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="{8f4-FI_+$#tJh^F!s=q"><field name="NUM">100</field></shadow></value></block></next></block></next></block></statement></block></xml>
+`;
+        }
+        return null;
+    })
+
+    helpers._registerFactory("animation", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+}
+// Auto-generated code. Do not edit.
